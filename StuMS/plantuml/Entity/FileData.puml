@@ -1,0 +1,8 @@
+@startuml
+class FileData {
+}
+class "List`1"<T> {
+}
+FileData o-> "Students<Student>" "List`1"
+FileData o-> "Courses<Course>" "List`1"
+@enduml

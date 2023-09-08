@@ -1,0 +1,6 @@
+@startuml
+class FileUtil <<static>> {
+    + {static} Store() : void
+    + {static} Read() : void
+}
+@enduml

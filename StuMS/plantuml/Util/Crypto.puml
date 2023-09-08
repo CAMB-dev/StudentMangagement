@@ -1,0 +1,5 @@
+@startuml
+class Crypto <<static>> {
+    + {static} Md5Encrypt(s:string) : string
+}
+@enduml

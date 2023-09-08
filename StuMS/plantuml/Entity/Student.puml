@@ -1,0 +1,14 @@
+@startuml
+class Student {
+    + Name : string <<get>> <<set>>
+    + Age : int <<get>> <<set>>
+    + StuID : string <<get>> <<set>>
+    + Password : string <<get>> <<set>>
+}
+class "List`1"<T> {
+}
+Student o-> "Gender" Gender
+Student o-> "Permission" Permission
+Student o-> "Courses<Course>" "List`1"
+Student o-> "Score<Score>" "List`1"
+@enduml

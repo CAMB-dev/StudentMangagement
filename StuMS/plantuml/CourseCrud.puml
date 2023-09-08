@@ -1,0 +1,14 @@
+@startuml
+class CourseCrud <<static>> {
+    + {static} AddCourses(courses:List<Course>) : void
+    + {static} AddCourse(course:Course) : void
+    + {static} GetCourses(courseName:string) : List<Course>
+    + {static} GetCourseFirstOrDefault(courseName:string) : Course?
+    + {static} GetCourses(pred:Func<Course, bool>) : List<Course>
+    + {static} GetCourses() : List<Course>
+    + {static} UpdateCourse(courseName:string, action:Action<Course>) : void
+    + {static} UpdateCourse(pred:Func<Course, bool>, action:Action<Course>) : void
+    + {static} DeleteCourse(courseName:string) : void
+    + {static} DeleteCourse(pred:Predicate<Course>) : void
+}
+@enduml

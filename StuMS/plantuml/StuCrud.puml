@@ -1,0 +1,14 @@
+@startuml
+class StuCrud <<static>> {
+    + {static} AddStudents(students:List<Student>) : void
+    + {static} AddStudent(student:Student) : void
+    + {static} GetStudents(stuid:string) : List<Student>
+    + {static} GetStudentFirstOrDefault(stuid:string) : Student?
+    + {static} GetStudents(pred:Func<Student, bool>) : List<Student>
+    + {static} GetStudents() : List<Student>
+    + {static} UpdateStudent(stuid:string, action:Action<Student>) : void
+    + {static} UpdateStudent(pred:Func<Student, bool>, action:Action<Student>) : void
+    + {static} DeleteStudent(stuid:string) : void
+    + {static} DeleteStudent(pred:Predicate<Student>) : void
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class Course {
+    + Name : string <<get>> <<set>>
+    + CourseTime : int <<get>> <<set>>
+    + CourseStudyScore : decimal <<get>> <<set>>
+    + <<override>> ToString() : string
+}
+@enduml

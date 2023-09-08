@@ -1,0 +1,6 @@
+@startuml
+enum Permission {
+    User,
+    Administrator,
+}
+@enduml

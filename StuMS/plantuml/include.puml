@@ -1,0 +1,25 @@
+@startuml
+!include .\\CourseCrud.puml
+!include .\\Program.puml
+!include .\\StuCrud.puml
+!include .\\Entity\Course.puml
+!include .\\Entity\FileData.puml
+!include .\\Entity\Score.puml
+!include .\\Entity\Student.puml
+!include .\\Enum\Gender.puml
+!include .\\Enum\Permission.puml
+!include .\\Util\Crypto.puml
+!include .\\Util\FileUtil.puml
+!include .\\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net6.0\StuMS.AssemblyInfo.puml
+!include .\\obj\Debug\net6.0\StuMS.GlobalUsings.g.puml
+!include .\\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net7.0\StuMS.AssemblyInfo.puml
+!include .\\obj\Debug\net7.0\StuMS.GlobalUsings.g.puml
+!include .\\obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.puml
+!include .\\obj\Release\net6.0\StuMS.AssemblyInfo.puml
+!include .\\obj\Release\net6.0\StuMS.GlobalUsings.g.puml
+!include .\\obj\Release\net6.0\win-x64\.NETCoreApp,Version=v6.0.AssemblyAttributes.puml
+!include .\\obj\Release\net6.0\win-x64\StuMS.AssemblyInfo.puml
+!include .\\obj\Release\net6.0\win-x64\StuMS.GlobalUsings.g.puml
+@enduml

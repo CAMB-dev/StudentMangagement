@@ -1,0 +1,6 @@
+@startuml
+class Score {
+    + CourseScore : decimal <<get>> <<set>>
+}
+Score --> "Course" Course
+@enduml
